@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+}
+
+/* CMS = Content Management System */
+
+//Traz tanto o painel de ADMIN quanto a parte visual do front-end (temas)
+//Headless CMS: Painel de ADMIN (dados fornecidos atraves de uma API REST ou GraphQL)
